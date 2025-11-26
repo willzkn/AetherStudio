@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Diseño de Portafolio",
+        "description": "Creamos contigo un sitio único para mostrar tu trabajo.",
+        "price": "S/ 150",
+        "image": "/portfolio.png"
+    },
+    {
+        "id": 2,
+        "name": "E-commerce Personalizado",
+        "description": "Desarrollamos tu tienda online a medida, optimizada para ventas.",
+        "price": "S/ 450",
+        "image": "/ecommerce.png"
+    },
+    {
+        "id": 3,
+        "name": "Web Corporativa",
+        "description": "Proyectamos la identidad de tu agencia con un diseño profesional.",
+        "price": "S/ 300",
+        "image": "/agency.png"
+    }
+]

@@ -1,0 +1,71 @@
+.tech-ticker-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--bg-primary);
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+    z-index: 10;
+}
+
+.tech-ticker-track {
+    display: flex;
+    width: max-content;
+    animation: scroll 40s linear infinite;
+}
+
+.ticker-list {
+    display: flex;
+    gap: 4rem;
+    padding-right: 4rem;
+    /* Match the gap to ensure seamless loop */
+}
+
+.tech-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+    font-size: 0.9rem;
+    opacity: 0.7;
+    white-space: nowrap;
+    transition: opacity 0.3s ease;
+}
+
+.tech-item:hover {
+    opacity: 1;
+    color: var(--text-primary);
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Gradient masks for smooth fade edges */
+.tech-ticker-container::before,
+.tech-ticker-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.tech-ticker-container::before {
+    left: 0;
+    background: linear-gradient(to right, var(--bg-primary), transparent);
+}
+
+.tech-ticker-container::after {
+    right: 0;
+    background: linear-gradient(to left, var(--bg-primary), transparent);
+}
