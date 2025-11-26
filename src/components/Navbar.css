@@ -22,6 +22,17 @@
     align-items: center;
 }
 
+.navbar .btn-primary {
+    background-color: var(--text-primary);
+    color: white;
+    border-color: var(--text-primary);
+}
+
+.navbar .btn-primary:hover {
+    background-color: transparent;
+    color: var(--text-primary);
+}
+
 .logo-container {
     display: flex;
     align-items: center;
