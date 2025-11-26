@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { MessageCircle, Mail } from 'lucide-react';
 import './Footer.css';
 
 const Footer = () => {
@@ -12,14 +14,20 @@ const Footer = () => {
                 <div className="footer-links">
                     <div className="link-group">
                         <h4>Servicios</h4>
-                        <a href="product/1">Portafolio Minimalista</a>
-                        <a href="product/2">E-commerce Inicial</a>
-                        <a href="product/3">Landing para Agencia</a>
+                        <Link to="/product/1">Portafolio Minimalista</Link>
+                        <Link to="/product/2">E-commerce Inicial</Link>
+                        <Link to="/product/3">Landing para Agencia</Link>
                     </div>
                     <div className="link-group">
                         <h4>Contáctanos</h4>
-                        <a href="https://wa.me/51975372816" target="_blank" rel="noopener noreferrer">WhatsApp: +51 975 372 816</a>
-                        <a href="mailto:williammorenosaavedra3@hotmail.com">Email: williammorenosaavedra3@hotmail.com</a>
+                        <div className="footer-social-icons">
+                            <a href="https://wa.me/51975372816" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                                <MessageCircle size={24} />
+                            </a>
+                            <a href="mailto:williammorenosaavedra3@hotmail.com" aria-label="Email">
+                                <Mail size={24} />
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

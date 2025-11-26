@@ -28,7 +28,7 @@
 }
 
 .testimonial-quote {
-    font-size: 1.1rem;
+    font-size: var(--text-base);
     line-height: 1.6;
     color: var(--text-primary);
     font-style: italic;

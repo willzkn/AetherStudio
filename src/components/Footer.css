@@ -44,3 +44,23 @@
 .link-group a:hover {
     color: var(--text-primary);
 }
+
+.footer-social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+    transition: all 0.3s ease;
+    margin-bottom: 0;
+    /* Override default link margin */
+}
+
+.footer-social-icons a:hover {
+    color: var(--text-primary);
+    transform: translateY(-3px);
+}

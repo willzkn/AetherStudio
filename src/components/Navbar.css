@@ -56,3 +56,59 @@
 .nav-links a:hover {
     color: var(--text-primary);
 }
+
+.mobile-menu-btn {
+    display: none;
+    cursor: pointer;
+    color: var(--text-primary);
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.mobile-menu-btn:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 768px) {
+    .navbar-content {
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .mobile-menu-btn {
+        display: block;
+        padding: 0.25rem;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: var(--bg-primary);
+        flex-direction: column;
+        padding: 2rem;
+        gap: 1.5rem;
+        border-bottom: 1px solid var(--border);
+        transform: translateY(-20px);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+        box-shadow: var(--shadow-md);
+    }
+
+    .nav-links.active {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .logo-text {
+        font-size: 1rem;
+    }
+
+    .logo-img {
+        height: 24px;
+    }
+}
