@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Zap, ShoppingCart, Building2, Database } from 'lucide-react';
+import { Zap, ShoppingCart, Database, ArrowRight } from 'lucide-react';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 import './Services.css';
 
@@ -12,6 +12,9 @@ const ServiceCard = ({ service }) => {
             <div className="service-icon">{service.icon}</div>
             <h3 className="service-title">{service.title}</h3>
             <p className="service-description">{service.description}</p>
+            <span className="service-link">
+                Conocer solución <ArrowRight size={16} />
+            </span>
         </Link>
     );
 };
@@ -41,7 +44,13 @@ const Services = () => {
     return (
         <section id="services" className="section services fade-to-white">
             <div className="container">
-                <h2 className="section-title">Nuestra Experiencia</h2>
+                <div className="section-header">
+                    <span className="section-kicker">Servicios</span>
+                    <h2 className="section-title">Nuestra Experiencia</h2>
+                    <p className="section-subtitle">
+                        Diseñamos soluciones claras, rápidas y escalables para cada etapa de tu negocio.
+                    </p>
+                </div>
                 <div className="services-grid">
                     {services.map((service, index) => (
                         <ServiceCard key={index} service={service} />

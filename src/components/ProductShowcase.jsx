@@ -40,7 +40,13 @@ const ProductShowcase = () => {
     return (
         <section id="showcase" className="section showcase fade-to-gray">
             <div className="container">
-                <h2 className="section-title">Soluciones Web</h2>
+                <div className="section-header">
+                    <span className="section-kicker">Portafolio</span>
+                    <h2 className="section-title">Soluciones Web</h2>
+                    <p className="section-subtitle">
+                        Elige el formato ideal para empezar hoy y crecer sin fricción.
+                    </p>
+                </div>
                 <div className="products-grid">
                     {products.map((product) => (
                         <ProductCard key={product.id} product={product} />

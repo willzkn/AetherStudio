@@ -3,21 +3,24 @@
     "id": 1,
     "name": "Diseño de Portafolio",
     "description": "Creamos un sitio web moderno, responsive y personalizado para mostrar tu trabajo, proyectos o marca personal de manera profesional.",
-    "price": "Desde $25",
+    "price": "Desde $35",
+    "details": "Incluye hasta 3 páginas independientes. El precio puede variar dependiendo de la cantidad de páginas o funcionalidades adicionales.",
     "image": "/portfolio.png"
   },
   {
     "id": 2,
     "name": "E-commerce Estándar",
     "description": "Desarrollamos una tienda virtual rápida y moderna utilizando catálogo dinámico con JSON. Ideal para negocios que desean mostrar productos y recibir pedidos directamente mediante WhatsApp, Telegram, Facebook u otros medios de contacto.",
-    "price": "Desde $150",
+    "price": "Desde $120",
+    "details": "Incluye hasta 3 páginas independientes. El precio puede variar dependiendo de la cantidad de páginas, catálogo de productos o personalizaciones adicionales.",
     "image": "/ecommerce-basic.png"
   },
   {
     "id": 3,
     "name": "E-commerce Avanzado",
     "description": "Tienda virtual completa con base de datos, panel administrativo, gestión de productos y funcionalidades avanzadas. Recomendado para negocios que necesitan automatización, administración en tiempo real y mayor escalabilidad.",
-    "price": "Desde $450",
+    "price": "Desde $400",
+    "details": "Incluye hasta 3 páginas independientes. El precio puede variar dependiendo de módulos, funcionalidades, paneles administrativos o integraciones adicionales.",
     "image": "/ecommerce-pro.png"
   }
 ]

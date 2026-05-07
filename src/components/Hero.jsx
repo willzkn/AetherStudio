@@ -17,6 +17,11 @@ const Hero = () => {
                     Sitios estáticos, catálogos simples y landing pages de venta.
                     Minimalista, rápido y efectivo.
                 </p>
+                <div className="hero-trust">
+                    <span>Entrega rápida</span>
+                    <span>Diseño moderno</span>
+                    <span>Enfoque en conversión</span>
+                </div>
                 <div className="hero-actions">
                     <a href="#services" className="btn btn-primary">Nuestra experiencia</a>
                     <a href="#showcase" className="btn btn-outline">Ver servicios</a>
