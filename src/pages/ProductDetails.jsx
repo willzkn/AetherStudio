@@ -48,13 +48,23 @@ const ProductDetails = () => {
                         <p className="detail-description">{product.description}</p>
 
                         <div className="info-box">
-                            <div className="info-item">
-                                <Zap className="info-icon" size={24} />
-                                <div>
-                                    <h4>Sin Base de Datos</h4>
-                                    <p>Este producto no requiere base de datos. Todo se gestiona mediante archivos estáticos para máxima velocidad y seguridad.</p>
+                            {product.id === 3 ? (
+                                <div className="info-item">
+                                    <Zap className="info-icon" size={24} />
+                                    <div>
+                                        <h4>Con Base de Datos</h4>
+                                        <p>Este producto incluye una base de datos robusta para gestionar inventarios, pedidos y usuarios en tiempo real.</p>
+                                    </div>
                                 </div>
-                            </div>
+                            ) : (
+                                <div className="info-item">
+                                    <Zap className="info-icon" size={24} />
+                                    <div>
+                                        <h4>Sin Base de Datos</h4>
+                                        <p>Este producto no requiere base de datos. Todo se gestiona mediante archivos estáticos para máxima velocidad y seguridad.</p>
+                                    </div>
+                                </div>
+                            )}
                             <div className="info-item">
                                 <Shield className="info-icon" size={24} />
                                 <div>

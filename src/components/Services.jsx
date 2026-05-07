@@ -34,7 +34,7 @@ const Services = () => {
             title: "E-commerce con Base de Datos",
             description: "Implementamos tiendas más completas con panel administrativo, gestión de productos y mayor escalabilidad.",
             icon: <Database size={48} strokeWidth={1.5} />,
-            link: "/product/4"
+            link: "/product/3"
         }
     ];
 
