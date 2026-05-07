@@ -27,7 +27,7 @@ const ProductDetails = () => {
     }
 
     const whatsappMessage = `Hola, estoy interesado en comprar la plantilla "${product.name}". ¿Me podrían dar más información sobre el proceso de pago y entrega?`;
-    const whatsappLink = `https://wa.me/51975372816?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappLink = `https://wa.me/51980006632?text=${encodeURIComponent(whatsappMessage)}`;
 
     return (
         <>

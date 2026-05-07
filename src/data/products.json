@@ -15,13 +15,6 @@
   },
   {
     "id": 3,
-    "name": "Web Corporativa",
-    "description": "Diseño profesional para empresas, emprendimientos y negocios que buscan fortalecer su presencia digital con una imagen moderna y confiable.",
-    "price": "Desde $300",
-    "image": "/agency.png"
-  },
-  {
-    "id": 4,
     "name": "E-commerce Avanzado",
     "description": "Tienda virtual completa con base de datos, panel administrativo, gestión de productos y funcionalidades avanzadas. Recomendado para negocios que necesitan automatización, administración en tiempo real y mayor escalabilidad.",
     "price": "Desde $450",

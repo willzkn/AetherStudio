@@ -21,7 +21,7 @@ const Footer = () => {
                     <div className="link-group">
                         <h5>Contáctanos</h5>
                         <div className="footer-social-icons">
-                            <a href="https://wa.me/51975372816" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                            <a href="https://wa.me/51980006632" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
                                 <MessageCircle size={24} />
                             </a>
                             <a href="mailto:williammorenosaavedra3@hotmail.com" aria-label="Email">

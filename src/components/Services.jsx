@@ -31,12 +31,6 @@ const Services = () => {
             link: "/product/2"
         },
         {
-            title: "Webs Corporativas",
-            description: "Diseñamos páginas profesionales para negocios, empresas y emprendimientos que buscan una presencia digital confiable.",
-            icon: <Building2 size={48} strokeWidth={1.5} />,
-            link: "/product/3"
-        },
-        {
             title: "E-commerce con Base de Datos",
             description: "Implementamos tiendas más completas con panel administrativo, gestión de productos y mayor escalabilidad.",
             icon: <Database size={48} strokeWidth={1.5} />,
