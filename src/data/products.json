@@ -1,23 +1,30 @@
 [
-    {
-        "id": 1,
-        "name": "Diseño de Portafolio",
-        "description": "Creamos contigo un sitio único para mostrar tu trabajo.",
-        "price": "S/ 150",
-        "image": "/portfolio.png"
-    },
-    {
-        "id": 2,
-        "name": "E-commerce Personalizado",
-        "description": "Desarrollamos tu tienda online a medida, optimizada para ventas.",
-        "price": "S/ 450",
-        "image": "/ecommerce.png"
-    },
-    {
-        "id": 3,
-        "name": "Web Corporativa",
-        "description": "Proyectamos la identidad de tu agencia con un diseño profesional.",
-        "price": "S/ 300",
-        "image": "/agency.png"
-    }
+  {
+    "id": 1,
+    "name": "Diseño de Portafolio",
+    "description": "Creamos un sitio web moderno, responsive y personalizado para mostrar tu trabajo, proyectos o marca personal de manera profesional.",
+    "price": "Desde $25",
+    "image": "/portfolio.png"
+  },
+  {
+    "id": 2,
+    "name": "E-commerce Estándar",
+    "description": "Desarrollamos una tienda virtual rápida y moderna utilizando catálogo dinámico con JSON. Ideal para negocios que desean mostrar productos y recibir pedidos directamente mediante WhatsApp, Telegram, Facebook u otros medios de contacto.",
+    "price": "Desde $150",
+    "image": "/ecommerce-basic.png"
+  },
+  {
+    "id": 3,
+    "name": "Web Corporativa",
+    "description": "Diseño profesional para empresas, emprendimientos y negocios que buscan fortalecer su presencia digital con una imagen moderna y confiable.",
+    "price": "Desde $300",
+    "image": "/agency.png"
+  },
+  {
+    "id": 4,
+    "name": "E-commerce Avanzado",
+    "description": "Tienda virtual completa con base de datos, panel administrativo, gestión de productos y funcionalidades avanzadas. Recomendado para negocios que necesitan automatización, administración en tiempo real y mayor escalabilidad.",
+    "price": "Desde $450",
+    "image": "/ecommerce-pro.png"
+  }
 ]

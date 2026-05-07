@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Zap, Package, MessageCircle } from 'lucide-react';
+import { Zap, ShoppingCart, Building2, Database } from 'lucide-react';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 import './Services.css';
 
@@ -20,21 +20,27 @@ const Services = () => {
     const services = [
         {
             title: "Webs Estáticas",
-            description: "Sitios web de alto rendimiento sin bases de datos. Ideales para portafolios, landing pages y sitios informativos. Carga instantánea y máxima seguridad.",
+            description: "Desarrollamos sitios rápidos, modernos y seguros sin base de datos. Ideales para portafolios, landing pages y páginas informativas.",
             icon: <Zap size={48} strokeWidth={1.5} />,
             link: "/product/1"
         },
         {
-            title: "Catálogos Simples",
-            description: "Muestra tus productos de forma dinámica. Fácil de actualizar mediante archivos simples, sin necesidad de un panel de administración complejo.",
-            icon: <Package size={48} strokeWidth={1.5} />,
+            title: "E-commerce por Catálogo",
+            description: "Creamos tiendas online simples para mostrar productos y recibir pedidos mediante WhatsApp, Telegram o Facebook.",
+            icon: <ShoppingCart size={48} strokeWidth={1.5} />,
             link: "/product/2"
         },
         {
-            title: "Landing Pages de Venta",
-            description: "Convierte visitantes en clientes. Páginas optimizadas para redirigir el tráfico directamente a tu WhatsApp, perfectas para ventas rápidas y contacto directo.",
-            icon: <MessageCircle size={48} strokeWidth={1.5} />,
+            title: "Webs Corporativas",
+            description: "Diseñamos páginas profesionales para negocios, empresas y emprendimientos que buscan una presencia digital confiable.",
+            icon: <Building2 size={48} strokeWidth={1.5} />,
             link: "/product/3"
+        },
+        {
+            title: "E-commerce con Base de Datos",
+            description: "Implementamos tiendas más completas con panel administrativo, gestión de productos y mayor escalabilidad.",
+            icon: <Database size={48} strokeWidth={1.5} />,
+            link: "/product/4"
         }
     ];
 
